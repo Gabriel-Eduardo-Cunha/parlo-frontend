@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Home",
+        "href": "",
+        "nestedLinks": [
+            {
+                "name": "Home one",
+                "href": ""
+            },
+            {
+                "name": "Home two",
+                "href": ""
+            }
+        ]
+    },
+    {
+        "name": "Shop",
+        "tag": "New",
+        "nestedLinks": [
+            {
+                "name": "Shop",
+                "href": "",
+                "nestedLinks": [
+                    {
+                        "name": "Shop Right Section",
+                        "href": ""
+                    },
+                    {
+                        "name": "Shop Middle Section",
+                        "href": ""
+                    },
+                    {
+                        "name": "Shop Left Bar",
+                        "href": ""
+                    }
+                ]
+            },
+            {
+                "name": "My account",
+                "href": "",
+                "nestedLinks": [
+                    {
+                        "name": "My account",
+                        "href": ""
+                    },
+                    {
+                        "name": "Checkout",
+                        "href": ""
+                    },
+                    {
+                        "name": "Cart",
+                        "href": ""
+                    }
+                ]
+            },
+            {
+                "name": "Products Detail Page",
+                "href": "",
+                "nestedLinks": [
+                    {
+                        "name": "Product Left Sidebar",
+                        "href": ""
+                    },
+                    {
+                        "name": "Product Right Sidebar",
+                        "href": ""
+                    },
+                    {
+                        "name": "Product Full",
+                        "href": ""
+                    }
+                ]
+            },
+            {
+                "name": "Pages",
+                "href": "",
+                "nestedLinks": [
+                    {
+                        "name": "Cart",
+                        "href": ""
+                    },
+                    {
+                        "name": "Checkout",
+                        "href": ""
+                    },
+                    {
+                        "name": "Whitelist",
+                        "href": ""
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "name": "Blog",
+        "href": "",
+        "tag": "Hot",
+        "nestedLinks": [
+            {
+                "name": "Blog sidebar",
+                "href": ""
+            },
+            {
+                "name": "Blog right",
+                "href": ""
+            },
+            {
+                "name": "Blog full",
+                "href": ""
+            }
+        ]
+    },
+    {
+        "name": "About us",
+        "href": ""
+    },
+    {
+        "name": "Contact us",
+        "href": ""
+    }
+]

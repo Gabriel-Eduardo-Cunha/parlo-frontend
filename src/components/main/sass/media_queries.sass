@@ -1,0 +1,25 @@
+
+$media-size: ("sm": 576px,"md": 768px,"lg": 998px,"xl": 1200px);
+
+@mixin for_breakpoint($breakpoints) {
+    $conditions : ();
+    @each $breakpoint in $breakpoints {
+        // If the key exists in the map
+        $conditions: append(
+            $conditions,
+            #{inspect(map-get($media_queries, $breakpoint))},
+            comma
+        );
+    }
+
+    @media #{$conditions} {
+        @content;
+    }
+
+}
+
+@mixin media-breakpoint-down($size) {
+  @media (max-width: #{map.get($media-size, $size)}) {
+    @content;
+  }
+}
